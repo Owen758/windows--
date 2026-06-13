@@ -17,8 +17,8 @@
 |------|------|
 | `electron` | 桌面框架核心 |
 | `electron-builder` | 打包/安装包生成 |
-| `sql.js` | 本地 SQLite 数据库（WASM 实现，零编译依赖） |
-| `sharp` | 图片缩略图生成（v2 考虑，v1 用 Canvas API） |
+| `better-sqlite3` | 本地 SQLite 数据库（无需安装数据库引擎） |
+| `sharp` | 图片缩略图生成 |
 
 ### 开发工具
 
