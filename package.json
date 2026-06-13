@@ -1,0 +1,22 @@
+{
+  "name": "clipboard-history",
+  "version": "0.1.0",
+  "description": "历史粘贴板 — Windows 剪贴板历史管理工具",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js --dev",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "clipboard",
+    "history",
+    "paste",
+    "electron"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.3.3",
+    "sql.js": "^1.12.0"
+  }
+}

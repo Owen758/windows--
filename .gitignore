@@ -1,0 +1,22 @@
+# 依赖目录
+node_modules/
+
+# 打包输出
+dist/
+release/
+
+# 用户数据（本地测试产生）
+*.db
+test-*.js
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 日志
+*.log
+.claude/
